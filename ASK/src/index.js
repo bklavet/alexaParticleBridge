@@ -3,7 +3,7 @@
  * Replace these with your particle.io device id and access token
  */
 var deviceId = "put-your-particle.io-device-ID-here";
-var accessToken = "put-your-particle.io-access-token-here";
+var accessToken = "put-your-particle.io-access-token-here";//can be found on the settings of the build site of particle.io console
 
 /**
  * Particle.io cloud function
@@ -21,7 +21,7 @@ var cloudName = "myFunction";
  * that you specify in the Alexa Skill Kit.
  * These are only used in responses from Alexa.
  */
-var skillName = "Particle"
+var skillName = "Photon Particle Skill Test One";
 var invocationName = "Particle";
 
 /**
@@ -29,7 +29,7 @@ var invocationName = "Particle";
  * Update and use this if/when you publish your skill publicly.
  * It's ok to leave this undefined until then.
  */
-var APP_ID = undefined; //replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
+var APP_ID = "amzn1.echo-sdk-ams.app.[your-unique-value-here]"; //replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]"; or undefined;
 
 /**
  * The AlexaSkill prototype and helper functions
